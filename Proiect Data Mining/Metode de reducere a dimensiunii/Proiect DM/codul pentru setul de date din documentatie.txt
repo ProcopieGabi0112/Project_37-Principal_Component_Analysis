@@ -1,0 +1,186 @@
+```{r,message = FALSE,warning = FALSE}
+library(dplyr)     # pentru manipularea si vizualizarea datelor de baza
+library(ggplot2)  # pentru vizualizarea datelor
+library(h2o)     #  pentru a efectua reducerea dimensiunii
+```
+<p style="font-size:15pt">&nbsp;&nbsp; Pentru a ilustra tehnicile de reducere a dimensiunii, vom folosi setul de date my_basket. Acest set de date identificã obiecte ºi cantitãþi ale obiectelor  cumpãrate într-un interval de  2.000 de tranzacþii de la un magazin alimentar. Obiectivul este de a identifica grupãri comune de articole achiziþionate împreunã.
+</p>
+
+```{r,message = FALSE,warning = FALSE}
+url<- "https://koalaverse.github.io/homlr/data/my_basket.csv"
+my_basket<-readr::read_csv(url)
+dim(my_basket)
+head(data.matrix(my_basket[1:5,1:9])) 
+```
+
+<p style="font-size:13pt">Pentru a aplica tehnicile de reducere a dimensiunii în R, datele trebuie sã fie filtrate prin urmãtorii paºi: 
+<br> &nbsp; &nbsp; 1. Setul de date trebuie sã fie într-un format ordonat ( <a href="https://drive.google.com/file/d/1fFv2hfI2OGRkged6URML3h2k06CIN6kk/view?usp=sharing" target="_blank">detalii</a> ).
+<br> &nbsp; &nbsp; 2. Oricare valoarea lipsã în setul de date trebuie sã fie stearsã  sau introdusã.
+<br> &nbsp; &nbsp; 3. Datele trebuie sã fie toate valori numerice ( de exemplu observaþie, etichetã, caracteristicã categoricã cu o codificare ordinalã ) .
+<br> &nbsp; &nbsp; 4. Datele numerice ar trebui sã fie standardizate ( de exemplu centrate ºi scalate) pentru a face observaþiile comparabile. </p>
+<p style="font-size:13pt">&nbsp;&nbsp; Setul de date my_basket îndeplineºte deja aceste cerinþe. Cu toate acestea, unele dintre pachetele pe care le vom folosi pentru  a efectua 
+sarcini de reducere a dimensiunii au capabilitãþi încorporate pentru a introduce datele lipsã, de a codifica numeric caracteristicile categorice  ºi  de a standardiza 
+caractericile categorice.
+ </p>
+
+<p style="font-size:13pt">&nbsp;&nbsp; De exemplu, dintre cele 42 de variabile din setul de date my_basket, 23 de combinaþii de variabile au o corelaþie moderatã ( &ge; 0.25 ). Privind tabelul de mai jos, vedem cã unele dintre aceste combinaþii pot fi reprezentate cu categorii de dimensiuni mai mici (  soda, candy, breakfast, and italian food ) </p>
+
+<div style="text-align:center;"><img src="correlation.jpg" alt="Correlation"></div>
+
+<p style="font-size:13pt;text-align:left"> &nbsp;&nbsp; Adesea vrem sã explicãm atributele comune, cum ar fi acestea intr-o dimensiune mai micã decât cele originale. De exemplu, atunci când vrem sã cumpãrãm un suc, putem cumpãra adesea mai multe tipuri în acelaºi timp ( de exemplu Coca Cola, Pepsi ºi 7UP ). Am putea reduce aceste variabile la o variabilã latentã (i.e. caracteristicã neobservatã ) pe care o vom numi "suc" . Acest lucru poate ajuta la descrierea multor caracteristici din setul nostru de date ºi poate elimina, de asemenea, multicoliniaritatea, care poate îmbunãtãþi adesea în avans  acurateþea predictivã a modelelor supervizate . </p>
+
+```{r,message = FALSE,warning = FALSE}
+     #   Vom genera o serie de date pentru a explica mai bine procesul... 
+     #Aceste date vor fi stocate într-o matrice numitã data.matrix
+     #unde vom avea 10 exemple unde am mãsurat 100 de gene/caracteristici
+data.matrix <- matrix(nrow=100, ncol=10)
+     #GENERAREA MATRICII
+     # Coloanele vor fi pentru fiecare exemplu în parte
+     # Rândurile vor fi pentru fiecare mãsurãtoare(caracteristicã) realizatã pentru fiecare exemplu
+colnames(data.matrix) <- c(
+  paste("wild_sample_", 1:5, sep=""),
+  paste("knock_out_", 6:10, sep=""))
+
+rownames(data.matrix) <- paste("feature ", 1:100, sep="")
+for (i in 1:100){
+  wt.values <- rpois(5, lambda=sample(x=10:1000, size=1))
+  ko.values <- rpois(5, lambda=sample(x=10:1000, size=1))
+  data.matrix[i,] <- c(wt.values, ko.values)
+}
+
+head(data.matrix)
+dim(data.matrix)
+ 
+pca <- prcomp(t(data.matrix), scale=TRUE) 
+pca
+
+# Vom plota PC_1 ?i PC_2
+plot(pca$x[,1], pca$x[,2])
+ 
+# make a scree plot
+pca.var <- pca$sdev^2
+pca.var.per <- round(pca.var/sum(pca.var)*100, 1)
+barplot(pca.var.per, main="Scree Plot", xlab="Principal Component", ylab="Percent Variation")
+ 
+
+#GGPLOT2
+#Vom face un plot mai complex folosind ggplot2 unde vom arãta PC-urile ?i varia?ia;
+library(ggplot2)
+ 
+pca.data <- data.frame(Sample=rownames(pca$x),
+  X=pca$x[,1],
+  Y=pca$x[,2])
+pca.data
+ 
+ggplot(data=pca.data, aes(x=X, y=Y, label=Sample)) +
+  geom_text() +
+  xlab(paste("PC1 - ", pca.var.per[1], "%", sep="")) +
+  ylab(paste("PC2 - ", pca.var.per[2], "%", sep="")) +
+  theme_bw() +
+  ggtitle("My PCA Graph")
+ 
+### get the name of the top 10 measurements (genes) that contribute most to pc1.
+loading_scores <- pca$rotation[,1]
+gene_scores <- abs(loading_scores) ## get the magnitudes
+gene_score_ranked <- sort(gene_scores, decreasing=TRUE)
+top_10_genes <- names(gene_score_ranked[1:10])
+ 
+ 
+pca$rotation[top_10_genes,1] ## show the scores (and +/- sign)
+ 
+#######
+##
+## NOTE: Everything that follow is just bonus stuff.
+## It simply demonstrates how to get the same
+## results using "svd()" (Singular Value Decomposition) or using "eigen()"
+## (Eigen Decomposition).
+##
+#######
+ 
+############################################
+##
+## Now let's do the same thing with svd()
+##
+## svd() returns three things
+## v = the "rotation" that prcomp() returns, this is a matrix of eigenvectors
+##     in other words, a matrix of loading scores
+## u = this is similar to the "x" that prcomp() returns. In other words,
+##     sum(the rotation * the original data), but compressed to the unit vector
+##     You can spread it out by multiplying by "d"
+## d = this is similar to the "sdev" value that prcomp() returns (and thus
+##     related to the eigen values), but not
+##     scaled by sample size in an unbiased way (ie. 1/(n-1)).
+##     For prcomp(), sdev = sqrt(var) = sqrt(ss(fit)/(n-1))
+##     For svd(), d = sqrt(ss(fit))
+##
+############################################
+ 
+svd.stuff <- svd(scale(t(data.matrix), center=TRUE))
+ 
+## calculate the PCs
+svd.data <- data.frame(Sample=colnames(data.matrix),
+  X=(svd.stuff$u[,1] * svd.stuff$d[1]),
+    Y=(svd.stuff$u[,2] * svd.stuff$d[2]))
+svd.data
+ 
+## alternatively, we could compute the PCs with the eigen vectors and the
+## original data
+svd.pcs <- t(t(svd.stuff$v) %*% t(scale(t(data.matrix), center=TRUE)))
+svd.pcs[,1:2] ## the first to principal components
+ 
+svd.df <- ncol(data.matrix) - 1
+svd.var <- svd.stuff$d^2 / svd.df
+svd.var.per <- round(svd.var/sum(svd.var)*100, 1)
+ 
+ggplot(data=svd.data, aes(x=X, y=Y, label=Sample)) +
+  geom_text() +
+  xlab(paste("PC1 - ", svd.var.per[1], "%", sep="")) +
+  ylab(paste("PC2 - ", svd.var.per[2], "%", sep="")) +
+  theme_bw() +
+  ggtitle("svd(scale(t(data.matrix), center=TRUE)")
+ 
+############################################
+##
+## Now let's do the same thing with eigen()
+##
+## eigen() returns two things...
+## vectors = eigen vectors (vectors of loading scores)
+##           NOTE: pcs = sum(loading scores * values for sample)
+## values = eigen values
+##
+############################################
+cov.mat <- cov(scale(t(data.matrix), center=TRUE))
+dim(cov.mat)
+ 
+## since the covariance matrix is symmetric, we can tell eigen() to just
+## work on the lower triangle with "symmetric=TRUE"
+eigen.stuff <- eigen(cov.mat, symmetric=TRUE)
+dim(eigen.stuff$vectors)
+head(eigen.stuff$vectors[,1:2])
+ 
+eigen.pcs <- t(t(eigen.stuff$vectors) %*% t(scale(t(data.matrix), center=TRUE)))
+eigen.pcs[,1:2]
+ 
+eigen.data <- data.frame(Sample=rownames(eigen.pcs),
+  X=(-1 * eigen.pcs[,1]), ## eigen() flips the X-axis in this case, so we flip it back
+  Y=eigen.pcs[,2]) ## X axis will be PC1, Y axis will be PC2
+eigen.data
+ 
+eigen.var.per <- round(eigen.stuff$values/sum(eigen.stuff$values)*100, 1)
+ 
+ggplot(data=eigen.data, aes(x=X, y=Y, label=Sample)) +
+  geom_text() +
+  xlab(paste("PC1 - ", eigen.var.per[1], "%", sep="")) +
+  ylab(paste("PC2 - ", eigen.var.per[2], "%", sep="")) +
+  theme_bw() +
+  ggtitle("eigen on cov(t(data.matrix))")
+
+```
+
+
+<p style="font-size:13pt">&nbsp;&nbsp; Deci, cum identificãm variabilele care ar putea  fi grupate într-o dimensiune inferioarã ? </p>
+
+<p style="font-size:13pt">&nbsp;&nbsp;  O opþiune include examinarea perechilor de diagrame de dispersie ale fiecãrei  variabile faþã de orice altã variabilã ºi identificarea covariatiei. Din pãcate, acest lucru este plictisitor ºi devine excesiv de rapid chiar si cu un numãr mic de variabile ( având în vedere p variabile, vom observa cã sunt $\frac{p(p-1)}{2}$ combinaþii de diagrame de dispersie posibile). De exemplu, deoarece setul de date my_basket are 42 de variabile numerice, ar trebui sã examinãm $\frac{42(42-1)}{2} = 861$ de diagrame de dispersie.    
+</p>
+
+<p style="font-size:13pt">&nbsp;&nbsp; Din fericire, existã abordãri mai bune pentru  a ne ajuta sã reprezentãm datele folosind o dimensiune mai  micã</p>

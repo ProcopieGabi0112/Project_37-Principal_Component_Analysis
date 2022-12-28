@@ -1,0 +1,424 @@
+---
+title: "Codificatoare automate"
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Codificatoare automate
+
+## Codificatoare automate
+
+<u> DESCRIERE GENERALĂ</u>
+
+## Codificatoare automate
+
+<u> DESCRIERE GENERALĂ</u>
+
+<div style="text-align:center;margin-top:60px;"><img src="123.jpeg" style="height:570px;" alt="Correlation"></div>
+
+## Codificatoare automate
+
+ <u> DESCRIERE GENERALĂ</u>
+
+<p style="font-size:20pt"><br> &nbsp;&nbsp; <u>Codificatoarele automate</u> sunt modele de deep learning feedforward. Ele vin cu toate beneficiile şi flexibilitatea pe care le oferă <br> modelele de <u>deep learning</u>. Deși este un concept simplu, aceste caracteristici (numite <u>codificări</u>) pot fi utilizate pentru: 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <u>reducerea dimensiunii</u>. 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  - <u>detectarea anomaliilor</u>. 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <u>modelarea generativă</u>.
+</p>
+
+## Codificatoare automate
+
+ <u> DESCRIERE GENERALĂ</u>
+
+<p style="font-size:20pt">
+<br> &nbsp;&nbsp; <u>Codificatoarele automate</u> sunt modele de deep learning feedforward. Ele vin cu toate beneficiile şi flexibilitatea pe care le oferă <br> modelele de <u>deep learning</u>.
+Deși este un concept simplu, aceste caracteristici (numite <u>codificări</u>) pot fi utilizate pentru: 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <u>reducerea dimensiunii</u>. 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  - <u>detectarea anomaliilor</u>. 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <u>modelarea generativă</u>.
+</p>
+
+<div style="text-align:center;margin-top:0px;"><img src="1234.png" style="height:441px;" alt="Correlation"></div>
+
+## Codificatoare automate
+
+ <u> DESCRIERE GENERALĂ</u>
+
+<p style="font-size:20pt">
+<br> &nbsp;&nbsp; <u>Codificatoarele automate</u> sunt modele de deep learning feedforward. Ele vin cu toate beneficiile şi flexibilitatea pe care le oferă <br> modelele de <u>deep learning</u>.
+Deși este un concept simplu, aceste caracteristici (numite <u>codificări</u>) pot fi utilizate pentru: 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <u>reducerea dimensiunii</u>. 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  - <u>detectarea anomaliilor</u>. 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <u>modelarea generativă</u>.
+</p>
+
+<div style="text-align:center;margin-top:0px;"><img src="casa0.png" style="height:441px;" alt="Correlation"></div>
+
+## Codificatoare automate
+
+ <u> DESCRIERE GENERALĂ</u>
+
+<p style="font-size:20pt">
+<br> &nbsp;&nbsp; <u>Codificatoarele automate</u> sunt modele de deep learning feedforward. Ele vin cu toate beneficiile şi flexibilitatea pe care le oferă <br> modelele de <u>deep learning</u>.
+Deși este un concept simplu, aceste caracteristici (numite <u>codificări</u>) pot fi utilizate pentru: 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <u>reducerea dimensiunii</u>. 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  - <u>detectarea anomaliilor</u>. 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <u>modelarea generativă</u>.
+</p>
+
+<div style="text-align:center;margin-top:0px;"><img src="casa1.png" style="height:441px;" alt="Correlation"></div>
+
+
+
+## Codificatoare automate
+
+ <u> DESCRIERE GENERALĂ</u>
+
+<p style="font-size:20pt">
+<br> &nbsp;&nbsp; <u>Codificatoarele automate</u> sunt modele de deep learning feedforward. Ele vin cu toate beneficiile şi flexibilitatea pe care le oferă <br> modelele de <u>deep learning</u>.
+Deși este un concept simplu, aceste caracteristici (numite <u>codificări</u>) pot fi utilizate pentru: 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <u>reducerea dimensiunii</u>. 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  - <u>detectarea anomaliilor</u>. 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <u>modelarea generativă</u>.
+</p>
+
+<div style="text-align:center;margin-top:0px;"><img src="casa2.png" style="height:441px;" alt="Correlation"></div>
+
+## Codificatoare automate
+
+ <u> DESCRIERE GENERALĂ</u>
+
+<p style="font-size:20pt">
+<br> &nbsp;&nbsp; <u>Codificatoarele automate</u> sunt modele de deep learning feedforward. Ele vin cu toate beneficiile şi flexibilitatea pe care le oferă <br> modelele de <u>deep learning</u>.
+Deși este un concept simplu, aceste caracteristici (numite <u>codificări</u>) pot fi utilizate pentru: 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <u>reducerea dimensiunii</u>. 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  - <u>detectarea anomaliilor</u>. 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <u>modelarea generativă</u>.
+</p>
+
+<div style="text-align:center;margin-top:0px;"><img src="casa3.png" style="height:441px;" alt="Correlation"></div>
+
+## Codificatoare automate
+
+ <u> DESCRIERE GENERALĂ</u>
+
+<p style="font-size:20pt">
+<br> &nbsp;&nbsp; <u>Codificatoarele automate</u> sunt modele de deep learning feedforward. Ele vin cu toate beneficiile şi flexibilitatea pe care le oferă <br> modelele de <u>deep learning</u>.
+Deși este un concept simplu, aceste caracteristici (numite <u>codificări</u>) pot fi utilizate pentru: 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <u>reducerea dimensiunii</u>. 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  - <u>detectarea anomaliilor</u>. 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <u>modelarea generativă</u>.
+</p>
+
+<div style="text-align:center;margin-top:0px;"><img src="casa4.png" style="height:441px;" alt="Correlation"></div>
+
+
+
+## Codificatoare automate
+
+ <u> DESCRIERE GENERALĂ</u>
+
+<p style="font-size:20pt">
+<br> &nbsp;&nbsp; <u>Codificatoarele automate</u> sunt modele de deep learning feedforward. Ele vin cu toate beneficiile şi flexibilitatea pe care le oferă <br> modelele de <u>deep learning</u>.
+Deși este un concept simplu, aceste caracteristici (numite <u>codificări</u>) pot fi utilizate pentru: 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <u>reducerea dimensiunii</u>. 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  - <u>detectarea anomaliilor</u>. 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <u>modelarea generativă</u>.
+</p>
+
+<div style="text-align:center;margin-top:0px;"><img src="casa1.png" style="height:441px;" alt="Correlation"></div>
+
+
+
+## Codificatoare automate
+
+ <u> DESCRIERE GENERALĂ</u>
+
+<p style="font-size:20pt">
+<br> &nbsp;&nbsp; <u>Codificatoarele automate</u> sunt modele de deep learning feedforward. Ele vin cu toate beneficiile şi flexibilitatea pe care le oferă <br> modelele de <u>deep learning</u>.
+Deși este un concept simplu, aceste caracteristici (numite <u>codificări</u>) pot fi utilizate pentru: 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <u>reducerea dimensiunii</u>. 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  - <u>detectarea anomaliilor</u>. 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <u>modelarea generativă</u>.
+</p>
+
+<div style="text-align:center;margin-top:0px;"><img src="casa2.png" style="height:441px;" alt="Correlation"></div>
+
+## Codificatoare automate
+
+ <u> DESCRIERE GENERALĂ</u>
+
+<p style="font-size:20pt">
+<br> &nbsp;&nbsp; <u>Codificatoarele automate</u> sunt modele de deep learning feedforward. Ele vin cu toate beneficiile şi flexibilitatea pe care le oferă <br> modelele de <u>deep learning</u>.
+Deși este un concept simplu, aceste caracteristici (numite <u>codificări</u>) pot fi utilizate pentru: 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <u>reducerea dimensiunii</u>. 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  - <u>detectarea anomaliilor</u>. 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <u>modelarea generativă</u>.
+</p>
+
+<div style="text-align:center;margin-top:0px;"><img src="casa3.png" style="height:441px;" alt="Correlation"></div>
+
+
+
+## Codificatoare automate
+
+ <u> DESCRIERE GENERALĂ</u>
+
+<p style="font-size:20pt">
+<br> &nbsp;&nbsp; <u>Codificatoarele automate</u> sunt modele de deep learning feedforward. Ele vin cu toate beneficiile şi flexibilitatea pe care le oferă <br> modelele de <u>deep learning</u>.
+Deși este un concept simplu, aceste caracteristici (numite <u>codificări</u>) pot fi utilizate pentru: 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <u>reducerea dimensiunii</u>. 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  - <u>detectarea anomaliilor</u>. 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <u>modelarea generativă</u>.
+</p>
+
+<div style="text-align:center;margin-top:0px;"><img src="test0.png" style="height:441px;" alt="Correlation"></div>
+
+
+## Codificatoare automate
+
+ <u> DESCRIERE GENERALĂ</u>
+
+<p style="font-size:20pt">
+<br> &nbsp;&nbsp; <u>Codificatoarele automate</u> sunt modele de deep learning feedforward. Ele vin cu toate beneficiile şi flexibilitatea pe care le oferă <br> modelele de <u>deep learning</u>.
+Deși este un concept simplu, aceste caracteristici (numite <u>codificări</u>) pot fi utilizate pentru: 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <u>reducerea dimensiunii</u>. 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  - <u>detectarea anomaliilor</u>. 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <u>modelarea generativă</u>.
+</p>
+
+<div style="text-align:center;margin-top:0px;"><img src="test1.png" style="height:441px;" alt="Correlation"></div>
+
+## Codificatoare automate
+
+ <u> DESCRIERE GENERALĂ</u>
+
+<p style="font-size:20pt">
+<br> &nbsp;&nbsp; <u>Codificatoarele automate</u> sunt modele de deep learning feedforward. Ele vin cu toate beneficiile şi flexibilitatea pe care le oferă <br> modelele de <u>deep learning</u>.
+Deși este un concept simplu, aceste caracteristici (numite <u>codificări</u>) pot fi utilizate pentru: 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <u>reducerea dimensiunii</u>. 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  - <u>detectarea anomaliilor</u>. 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <u>modelarea generativă</u>.
+</p>
+
+<div style="text-align:center;margin-top:0px;"><img src="test2.png" style="height:441px;" alt="Correlation"></div>
+
+## Codificatoare automate
+
+ <u> DESCRIERE GENERALĂ</u>
+
+<p style="font-size:20pt">
+<br> &nbsp;&nbsp; <u>Codificatoarele automate</u> sunt modele de deep learning feedforward. Ele vin cu toate beneficiile şi flexibilitatea pe care le oferă <br> modelele de <u>deep learning</u>.
+Deși este un concept simplu, aceste caracteristici (numite <u>codificări</u>) pot fi utilizate pentru: 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <u>reducerea dimensiunii</u>. 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  - <u>detectarea anomaliilor</u>. 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <u>modelarea generativă</u>.
+</p>
+
+<div style="text-align:center;margin-top:0px;"><img src="test3.png" style="height:441px;" alt="Correlation"></div>
+
+## Codificatoare automate
+
+ <u> DESCRIERE GENERALĂ</u>
+
+<p style="font-size:20pt">
+<br> &nbsp;&nbsp; <u>Codificatoarele automate</u> sunt modele de deep learning feedforward. Ele vin cu toate beneficiile şi flexibilitatea pe care le oferă <br> modelele de <u>deep learning</u>.
+Deși este un concept simplu, aceste caracteristici (numite <u>codificări</u>) pot fi utilizate pentru: 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <u>reducerea dimensiunii</u>. 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  - <u>detectarea anomaliilor</u>. 
+<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <u>modelarea generativă</u>.
+</p>
+
+<div style="text-align:center;margin-top:0px;"><img src="test4.png" style="height:441px;" alt="Correlation"></div>
+
+## Codificatoare automate
+
+
+<u> Codificatoare automate incomplete</u>
+
+<p style="font-size:20pt">&nbsp;&nbsp; Un <span style="text-decoration:underline"> autoencoder </span> are o structură foarte similară cu o re?ea neurală feedforward (multi layer perceptron). Diferen?a principală atunci când se utilizează într-un context nesupervizat este că numărul de neuroni din stratul de ie?ire este egal cu numărul de intrări.
+<br> &nbsp;&nbsp; În consecin?ă, în cea mai simplă formă, un autoencoder folose?te straturi ascunse pentru a încerca să recreeze intrările. Putem descrie acest algoritm în două păr?i: <br>&nbsp;&nbsp; &nbsp; - <u>funcţie de codificare </u> ($Z$ = $f(X)$) care converte?te $X$ intrări la $Z$ codificări.<br>&nbsp;&nbsp; &nbsp; - <u>funcţie de decodificare </u> ($X'$ = $g(Z)$) care produce o reconstrucţie a datelor de intrare $X'$. 
+
+
+ <br> &nbsp;&nbsp; În scopul reducerii dimensiunilor, scopul este de a crea un set redus de codificări care să reprezinte în mod adecvat $X$. În consecin?ă, vom constrânge straturile ascunse astfel încât numărul de neuroni să fie mai mic decât numărul de intrări. Un autoencoder a cărui reprezentare internă are o dimensionalitate mai mică decât datele de intrare este cunoscut sub numele de <i>autoencoder subcomplet</i>. Această comprimare a straturilor ascunse obligă autoencoderul să capteze cele mai dominante caracteristici ale datelor de intrare, iar reprezentarea acestor semnale este capturată în codificări.
+</p>
+
+<p style="font-size:20pt">&nbsp;&nbsp;  Pentru a învă?a greută?ile neuronilor ?i, prin urmare, codurile, autoencoderul încearcă să minimizeze anumite func?ii de pierdere, cum ar fi eroarea medie pătrată (MSE), care penalizează $X'$ pentru a fi diferit de $X$ : 
+ <div style="text-align:center;">minimize $L$ = $f($ $X$, $X')$</div>
+
+</p>
+
+## Codificatoare automate
+ 
+
+
+<u> Autoencodere subcompletate </u>
+
+<div style="text-align:center;margin-top:-90px;"><img src="combined.png" style="height:750px;" alt="Correlation"></div>
+
+## Codificatoare automate
+
+
+<u> Autoencodere subcompletate.</u>
+<br><u> Compararea PCA cu un autoencoder</u>
+
+<p style="font-size:20pt">&nbsp;&nbsp;  Când autoencoderul folose?te numai func?ii de activare liniară ?i func?ia de pierdere este MSE, atunci se poate demonstra că autoencoderul se reduce la PCA. Când sunt utilizate func?ii de activare neliniară, autoencoderele oferă generalizări neliniare ale PCA.
+<br> &nbsp;&nbsp;Următoarele demonstrează prima noastră implementare a unui autoencoder de bază. 
+<br> &nbsp;&nbsp; Când utiliza?i pachetul <i> h2o </i>, utiliza?i aceea?i func?ie <i> h2o.deeplearning() </i> pe care a?i folosi-o pentru a antrena o re?ea neuronală. Cu toate acestea, trebuie să seta?i <i> autoencoder = TRUE </i>. Folosim un singur strat ascuns cu doar două codări. Acest lucru reduce 784 de caracteristici la două dimensiuni. De?i nu este foarte realist, ne permite să vizualizăm rezultatele ?i să ob?inem o oarecare intui?ie asupra algoritmului. <br> &nbsp;&nbsp; În acest exemplu folosim o func?ie de activare tangentă hiperbolică care are o formă sigmoidală neliniară. Pentru a extrage codările de dimensiune redusă, folosim funcţia <i> h2o.deepfeatures() </i> ?i specificăm stratul de codări de extras.
+</p>
+
+<p style="font-size:20pt">&nbsp;&nbsp; Setul de date MNIST este foarte rar; de fapt, peste 80% dintre elementele din setul de date MNIST sunt zerouri. Când ave?i date rare precum aceasta, utilizarea <i> sparse = TRUE </i> permite <i> h2o </i> să gestioneze mai eficient datele de intrare ?i să accelereze calculul.
+</p>
+
+```{r,message = FALSE,warning = TRUE}
+#library(dplyr)    # pentru manipularea datelor
+#library(ggplot2) # pentru vizualizarea datelor
+##Pachetele pentru modelare
+#library(h2o) # pentru montarea autoencoderelor
+#mnist <- dslabs::read_mnist()
+#names(mnist)
+#h2o.no_progress() # dezactivăm barele de progres
+#h2o.init(max_mem_size ="5g") # ini?ializăm instan?a H2O
+
+# Convert mnist features to an h2o input data set
+#features <- as.h2o(mnist$train$images)
+
+# Train an autoencoder
+#ae1 <- h2o.deeplearning(
+##  x = seq_along(features),
+#  training_frame = features,
+#autoencoder = TRUE,
+#  hidden = 2,
+#  activation = 'Tanh',
+#  sparse = TRUE
+)
+
+# Extract the deep features
+ae1_codings <- h2o.deepfeatures(ae1, features, layer = 1)
+ae1_codings
+```
+
+<p style="font-size:20pt">&nbsp;&nbsp; Codările reduse pe care le extragem sunt uneori denumite caracteristici profunde (DF) ?i sunt similare în natură cu componentele principale pentru PCA ?i arhetipurile pentru GLRM. De fapt, putem proiecta variabila de răspuns MNIST pe spa?iul redus de caracteristici ?i putem compara autoencoderul nostru cu PCA. Figura următoare ilustrează modul în care neliniaritatea codificatoarelor automate poate ajuta la izolarea semnalelor din caracteristici mai bine decât PCA. 
+</p>
+
+<div style="text-align:center;margin-top:-90px;"><img src="pca-autoencoder-projection-1.png" style="height:600px;" alt="Correlation"></div>
+
+## Codificatoare automate
+
+
+<u> Autoencodere subcompletate.</u>
+<br><u> Autoencodere stivă</u>
+
+<p style="font-size:20pt">&nbsp;&nbsp; Autoencoderele sunt adesea antrenate doar cu un singur strat ascuns. Totu?i, aceasta nu este o cerin?ă. A?a cum am ilustrat cu re?elele neuronale feedforward, codificatoarele automate pot avea mai multe straturi ascunse. Ne referim la autoencodere cu mai mult de un strat ca autoencodere stivă (sau autoencodere deep ). Adăugarea de straturi suplimentare la autoencoder poate avea avantaje. Adăugarea de adâncime suplimentară poate permite codificărilor să reprezinte rela?ii mai complexe, neliniare, la un cost de calcul redus. </p>
+
+
+<p style="font-size:20pt">&nbsp;&nbsp; Trebuie să ave?i grijă să nu face?i autoencoderul prea complex ?i puternic, deoarece pute?i risca să reconstrui?i aproape perfect intrările, fără a identifica caracteristicile importante care se generalizează bine. </p>
+
+<p style="font-size:20pt">&nbsp;&nbsp; Pe măsură ce cre?te?i adâncimea unui autoencoder, arhitectura urmează de obicei un model simetric.47 De exemplu, Figura 19.3 ilustrează trei arhitecturi diferite de autoencoder subcomplete care prezintă straturi ascunse simetrice. </p>
+
+<div style="text-align:center;margin-top:-90px;"><img src="autoencoder-symmetry.png" style="height:500px;" alt="Correlation"></div>
+
+<p style="font-size:20pt">&nbsp;&nbsp; Deci, cum se găse?te arhitectura corectă a autencoderului? Putem folosi acelea?i proceduri de căutare în grilă pe care le-am discutat în sec?iunea de învă?are supravegheată a căr?ii. Pentru a ilustra, următorul cod examinează cinci arhitecturi de codificare automată subcomplete. În acest exemplu, constatăm că o adâncime mai mică oferă MSE optimă, deoarece un singur strat ascuns cu 100 de caracteristici adânci are cel mai mic MSE de 0,007. </p>
+
+<p style="font-size:20pt">&nbsp;&nbsp; Următoarea căutare în grilă a durat pu?in peste 9 minute. </p>
+
+```{r,message = FALSE,warning = TRUE}
+# Hyperparameter search grid
+hyper_grid <- list(hidden = list(
+  c(50),
+  c(100), 
+  c(300, 100, 300),
+  c(100, 50, 100),
+  c(250, 100, 50, 100, 250)
+))
+
+# Execute grid search
+ae_grid <- h2o.grid(
+  algorithm = 'deeplearning',
+  x = seq_along(features),
+  training_frame = features,
+  grid_id = 'autoencoder_grid',
+  autoencoder = TRUE,
+  activation = 'Tanh',
+  sparse = TRUE,
+  ignore_const_cols = FALSE,
+  seed = 123
+)
+
+# Print grid details
+h2o.getGrid('autoencoder_grid', sort_by = 'mse', decreasing = FALSE)
+```
+
+## Codificatoare automate
+
+
+<u> Autoencodere subcompletate.</u>
+<br><u> Vizualizarea reconstruc?iei</u>
+
+<p style="font-size:20pt">&nbsp;&nbsp; Deci, cât de bine reconstituie autoencoderul nostru intrările originale? <br> &nbsp;&nbsp; MSE ne oferă o evaluare generală a erorilor, dar putem compara direct intrările ?i ie?irile reconstruite. Figura următoare ilustrează această compara?ie prin e?antionarea câtorva imagini de testare, prezicerea valorilor pixelilor reconstrui?i pe baza autoencoderului nostru optim ?i reprezentarea grafică a cifrelor originale în raport cu cifrele reconstruite. Obiectivul autoencoderului este de a capta caracteristicile proeminente ale imaginilor în care orice diferen?ă ar trebui să fie neglijabilă. Figura următoare ilustrează că autencoderul nostru face o treabă destul de bună în acest sens.  </p>
+
+```{r,message = FALSE,warning = TRUE}
+ # Get sampled test images
+index <- sample(1:nrow(mnist$test$images), 4)
+sampled_digits <- mnist$test$images[index, ]
+colnames(sampled_digits) <- paste0("V", seq_len(ncol(sampled_digits)))
+
+# Predict reconstructed pixel values
+best_model_id <- ae_grid@model_ids[[1]]
+best_model <- h2o.getModel(best_model_id)
+reconstructed_digits <- predict(best_model, as.h2o(sampled_digits))
+names(reconstructed_digits) <- paste0("V", seq_len(ncol(reconstructed_digits)))
+
+combine <- rbind(sampled_digits, as.matrix(reconstructed_digits))
+
+# Plot original versus reconstructed
+par(mfrow = c(1, 3), mar=c(1, 1, 1, 1))
+layout(matrix(seq_len(nrow(combine)), 4, 2, byrow = FALSE))
+for(i in seq_len(nrow(combine))) {
+  image(matrix(combine[i, ], 28, 28)[, 28:1], xaxt="n", yaxt="n")
+}
+```
+
+<div style="text-align:center;margin-top:0px;"><img src="reconstructed-images-plot-1.png" style="height:600px;" alt="Correlation"></div>
+
+## Codificatoare automate
+
+<u> REALIZAREA UNUI AUTOENCODER IN R</u>
+
+<p style="font-size:15pt">&nbsp;&nbsp; Pentru a realiza acest lucru vom folosi următoarele pachete. </p>
+
+```{r,message = FALSE,warning = TRUE}
+#library(dplyr)    # pentru manipularea datelor
+#library(ggplot2) # pentru vizualizarea datelor
+```
+
+```{r,message = FALSE,warning = TRUE}
+#Pachetele pentru modelare
+#library(h2o) # pentru montarea autoencoderelor
+```
+
+<p style="font-size:20pt">&nbsp;&nbsp; Pentru a ilustra conceptele autoencoderelor, vom continua cu setul de date <i>mnist</i> folosit în sec?iunea trecută. </p>
+
+```{r,message = FALSE,warning = TRUE}
+#mnist <- dslabs::read_mnist()
+#names(mnist)
+```
+
+
+<p style="font-size:20pt">&nbsp;&nbsp; Vom folosi pachetul <i>h2o</i>. În acest caz, este necesar să ini?ializăm o sesiunea <i>H2O</i> </p>
+
+```{r,message = FALSE,warning = TRUE}
+#h2o.no_progress() # dezactivăm barele de progres
+#h2o.init(max_mem_size ="5g") # ini?ializăm instan?a H2O
+```
+
+
+
+
+## SFÂRŞIT
+
+<div style="text-align:center;margin-top:60px;"><img src="1.jpeg" style="height:550px;" alt="Correlation"></div>
+ 
